@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find planar_manipulator_defs)/robots/planar_two_arms.urdf'" />
+  <param name="robot_semantic_description" command="$(find xacro)/xacro.py '$(find planar_manipulator_defs)/robots/planar_two_arms.srdf'" />
+</launch>

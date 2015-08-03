@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- upload robot description -->
+	<include file="$(find planar_manipulator_defs)/launch/upload_robot_two_arms.launch" />
+	
+	<node pkg="robot_state_publisher" type="state_publisher" name="robot_state_publisher" />
+	
+	<node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+	  <param name="use_gui" value="true"/>
+	</node>
+</launch>
+

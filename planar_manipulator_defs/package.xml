@@ -1,0 +1,18 @@
+<package>
+  <name>planar_manipulator_defs</name>
+  <version>0.0.1</version>
+  <description>This package contains the description (mechanical, kinematic, visual,
+  etc.) of a planar manipulator. The files in this package are parsed and used by
+  a variety of other components. Most users will not interact directly
+  with this package.</description>
+  <maintainer email="dawid.seredynski@gmail.com">Dawid Seredyński</maintainer>
+
+  <license>BSD</license>
+
+  <author>Dawid Seredyński</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>xacro</run_depend>
+
+</package>

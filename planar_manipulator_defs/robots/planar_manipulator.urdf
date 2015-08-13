@@ -86,7 +86,7 @@
       </geometry>
     </collision>
     <self_collision_checking>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.570796327 0 0" xyz="0 0 0"/>
       <geometry>
         <capsule radius="0.1" length = "1.0"/>
       </geometry>
@@ -116,7 +116,7 @@
       </geometry>
     </collision>
     <self_collision_checking>
-      <origin rpy="0 0 -1.570796327" xyz="0.2 0 0"/>
+      <origin rpy="0 -1.570796327 0" xyz="0.2 0 0"/>
       <geometry>
         <capsule radius="0.1" length = "0.4"/>
       </geometry>
@@ -146,7 +146,7 @@
       </geometry>
     </collision>
     <self_collision_checking>
-      <origin rpy="0 0 -1.570796327" xyz="0.2 0 0"/>
+      <origin rpy="0 -1.570796327 0" xyz="0.2 0 0"/>
       <geometry>
         <capsule radius="0.1" length = "0.4"/>
       </geometry>
@@ -176,7 +176,7 @@
       </geometry>
     </collision>
     <self_collision_checking>
-      <origin rpy="0 0 -1.570796327" xyz="0.2 0 0"/>
+      <origin rpy="0 -1.570796327 0" xyz="0.2 0 0"/>
       <geometry>
         <capsule radius="0.1" length = "0.4"/>
       </geometry>
@@ -206,7 +206,7 @@
       </geometry>
     </collision>
     <self_collision_checking>
-      <origin rpy="0 0 -1.570796327" xyz="0.2 0 0"/>
+      <origin rpy="0 -1.570796327 0" xyz="0.2 0 0"/>
       <geometry>
         <capsule radius="0.1" length = "0.4"/>
       </geometry>
@@ -236,7 +236,7 @@
       </geometry>
     </collision>
     <self_collision_checking>
-      <origin rpy="0 0 1.570796327" xyz="0.05 0 0"/>
+      <origin rpy="0 1.570796327 0" xyz="0.05 0 0"/>
       <geometry>
         <sphere radius="0.1"/>
       </geometry>
